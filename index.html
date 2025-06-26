@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bill of Lading Form</title>
+    </head>
+    <body>
+        <form onsubmit="event.preventDefault(); submitBOLData();">
+            <input type="text" id="bol_number" placeholder="BOL Number" required />
+            <input type="text" id="po_number" placeholder="PO Number" required />
+            <input type="text" id="item_number" placeholder="Item Number" required />
+            <button type="submit">Submit</button>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html> 
