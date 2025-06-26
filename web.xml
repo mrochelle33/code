@@ -3,7 +3,7 @@
   <filter-class>com.thetransactioncompany.cors.CORSFilter</filter-class>
   <init-param>
     <param-name>cors.allowOrigin</param-name>
-    <param-value>https://your-webflow-site.webflow.io</param-value>
+    <param-value>http://rglnpweb1.jgi.local:8220/jderest/orchestrator/EnterSalesOrder</param-value>
   </init-param>
   <init-param>
     <param-name>cors.allowCredentials</param-name>
